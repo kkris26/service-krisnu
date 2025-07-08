@@ -46,7 +46,7 @@ const App = () => {
   }
 
   return (
-    <div className="flex flex-col w-full h-screen items-center justify-center gap-4">
+    <div className="flex flex-col w-full h-dvh items-center justify-center gap-4">
       <h1 className="text-white text-xl">Make Your Move</h1>
       <div className="flex justify-between flex-col w-60 gap-4 bg-base-300 p-8 rounded-lg">
         <ToggleOption value={cheap} onToggle={handleCheap} label={"Cheap"} />
